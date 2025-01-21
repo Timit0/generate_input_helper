@@ -11,8 +11,6 @@ set(SOURCES
     src/main.cpp
 )
 
-set(
-    CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/win/x86"
-)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/win/x64")
 
 add_executable(helper ${SOURCES})
